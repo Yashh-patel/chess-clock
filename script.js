@@ -3,7 +3,6 @@ let currentPlayer = 1;
 const panel = document.querySelector('.player');
 const buttons = document.querySelectorAll('.bttn');
 
-// Sabse pehle start menu
 document.querySelector("#start-btn").addEventListener("click", function () {
     document.querySelector("#start-menu").style.top = "-100%"
     const val1 = document.querySelector("#player1-id").value
